@@ -1,4 +1,4 @@
-This project contains barebone examples of differet aspects of Spring. The project is a work in progress and will be so for a while!
+This project contains barebone examples of differet aspects of Spring. The project is a work in progress and will remain so for a while!
 
 # Contents
 
