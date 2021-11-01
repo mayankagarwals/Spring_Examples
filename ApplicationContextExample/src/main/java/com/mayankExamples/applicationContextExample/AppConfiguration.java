@@ -5,7 +5,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan
+@ComponentScan //Required to discover stereotype beans. If you use Spring boot @SpringBootApplication has this by default
 public class AppConfiguration {
 
     @Bean

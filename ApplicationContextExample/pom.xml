@@ -6,6 +6,7 @@
     <artifactId>applicationContextExample</artifactId>
     <version>1.0</version>
 
+    <!-- Maven's compiler plugin uses these properties -->
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -18,6 +19,7 @@
             <version>5.3.12</version>
         </dependency>
 
+        <!-- For assertions -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

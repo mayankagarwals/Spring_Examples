@@ -10,6 +10,8 @@ public class Application {
     private static AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfiguration.class);
 
     public static void main(String args[]){
+
+        //print all beans contained in the context
         System.out.println(Arrays.asList(ctx.getBeanDefinitionNames()));
 
         Object myShape = ctx.getBean("myShape");
